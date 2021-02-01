@@ -40,9 +40,12 @@ html body{
 user-select: none;
 }
 .commands{
-    position: absolute;
+   position: absolute;
    top: 55%;
-   left: 5%;
+   left: 15%;
+}
+.more:hover{
+    cursor: pointer;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -98,7 +101,7 @@ body::-webkit-scrollbar{
 }
 .discord{
     height: 50px;
-    position: fixed;
+    position: relative;
     left: 90%;
 }
 .discord:hover{

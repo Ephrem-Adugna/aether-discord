@@ -31,3 +31,7 @@ title3.addEventListener("mouseout", function () {
 document.getElementById('discord').addEventListener('click', function () {
     window.location.href ="https://discord.com/oauth2/authorize?client_id=804546807874191420&scope=bot&permissions=76800";
 })
+document.getElementsByClassName('more')[0].addEventListener('click', function () {
+    window.location.href = "./commands.html";
+
+})
