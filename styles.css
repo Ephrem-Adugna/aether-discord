@@ -52,18 +52,25 @@ user-select: none;
           display: none;
       }
        .mobilecommands {
-           display: inline-block !important;
-             margin-top: 10%;
-             
+          
+             visibility: visible !important;
+             position: fixed;
+             top: 50%;
+              position: absolute;
+              top: 60%;
+              left: 50%;
+                -ms-transform: translate(-60%, -50%);
+                transform: translate(-60%, 150%);
        }
       body{
           overflow-x: hidden;
           overflow-y: hidden;
       }
+    
   }
 
   .mobilecommands{
-      display: none;
+      visibility: hidden;   
   }
 .more:hover{
     cursor: pointer;

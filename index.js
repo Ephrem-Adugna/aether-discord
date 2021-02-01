@@ -36,3 +36,7 @@ document.getElementsByClassName('more')[0].addEventListener('click', function ()
     window.location.href = "./commands.html";
 
 })
+document.getElementsByClassName('more2')[0].addEventListener('click', function () {
+    window.location.href = "./commands.html";
+
+})
