@@ -1,0 +1,109 @@
+@font-face {
+    font-family: genshinfont;
+    src: url(./assets/zh-cn.ttf);
+}
+*{
+    font-family: genshinfont;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+html body{
+
+     overflow-x: hidden;
+}
+.title{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: underline;
+}
+
+.container, .commands{
+    position: relative;
+    color: white;
+       text-align: center;
+-moz-user-select: -moz-none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+
+/*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+-ms-user-select: none;
+user-select: none;
+}
+.commands{
+    position: absolute;
+   top: 55%;
+   left: 5%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.table{
+       color: white !important;
+       font-weight: 100;
+
+}
+.row{
+    text-align: center;
+}
+.col-sm-4{
+    background-color: rgb(187, 203, 218);
+    opacity: 0.75;
+    border: solid black 1px;
+         box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+  -ms-user-select: none;
+  user-select: none;
+         transition: box-shadow 0.3s ease-in-out;
+
+}
+.col-sm-4:hover{
+             box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
+     transition: box-shadow 0.3s ease-in-out;
+     cursor: pointer;
+     
+}
+#description1, #description2, #description3{
+    animation-name: example;
+    animation-duration: .6s;
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.1 !important;
+    }
+}
+.empty{
+    visibility: hidden;
+}
+.discord{
+    height: 50px;
+    position: fixed;
+    left: 90%;
+}
+.discord:hover{
+    cursor: pointer;
+}
+.commstitle{
+    font-size: 40px;
+}
