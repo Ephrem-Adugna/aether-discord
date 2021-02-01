@@ -40,10 +40,31 @@ html body{
 user-select: none;
 }
 .commands{
-   position: absolute;
-   top: 55%;
-   left: 15%;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
+  @media screen and (max-width: 1390px) {
+      .inner {
+          display: none;
+      }
+       .mobilecommands {
+           display: inline-block !important;
+             margin-top: 10%;
+             
+       }
+      body{
+          overflow-x: hidden;
+          overflow-y: hidden;
+      }
+  }
+
+  .mobilecommands{
+      display: none;
+  }
 .more:hover{
     cursor: pointer;
 }
@@ -102,7 +123,6 @@ body::-webkit-scrollbar{
 .discord{
     height: 50px;
     position: relative;
-    left: 90%;
 }
 .discord:hover{
     cursor: pointer;

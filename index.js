@@ -6,14 +6,15 @@ var title3 = document.getElementById("title3");
 title1.addEventListener("mouseover", function () {
     description.innerHTML = `<div class="col-sm-4" id="description1">
     All players have a primogem balance when they sign up that lets them make wishes, play games, and much more! There are many games and challenges that will let you earn primogems and your primogems are saved across different discord servers!
-    </div>`;
+    </div><div class="empty"></div>
+        <div class="empty"></div>`;
 })
 title1.addEventListener("mouseout", function () {
     description.innerHTML = "";
 
 })
 title2.addEventListener("mouseover", function () {
-    description.innerHTML = ` <div class="empty col-sm-4"></div> <div class="col-sm-4" id="description1">Currently, Aether only has tic-tac-toe and playing rock paper scissors with paimon, but we plan to add many more games soon!</div>`;
+    description.innerHTML = `<div class="empty"></div><div class="empty col-sm-4"></div> <div class="col-sm-4" id="description1">Currently, Aether only has tic-tac-toe and playing rock paper scissors with paimon, but we plan to add many more games soon!</div>`;
 })
 title2.addEventListener("mouseout", function () {
     description.innerHTML = "";
