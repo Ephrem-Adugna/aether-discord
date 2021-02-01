@@ -11,9 +11,7 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    ebkit-filter: grayscale(20%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(20%);
+  
 }
 
 html body{
@@ -24,9 +22,49 @@ html body{
     font-size: 50px;
     font-weight: 100;
     position: relative;
-    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
 }
+.secondtitle{
+        text-shadow: 2px 2px 2px black;
 
+}
+#message{
+    padding-top: 5px;
+    position: fixed;
+    display: inline;
+
+}
+.inner-text{
+         animation-name: example;
+         animation-duration: .6s;
+          background-color: rgb(187, 203, 218);
+          opacity: 0.75;
+          border-left: transparent;
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
+          -moz-user-select: -moz-none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+
+    
+          -ms-user-select: none;
+          user-select: none;
+          transition: box-shadow 0.3s ease-in-out;
+          display: inline-block;
+
+}
+.arrow-left {
+    animation-name: example;
+    animation-duration: .6s ;
+
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 13px solid transparent;
+    position: relative;
+    top: 7px;
+    border-right: 11px solid rgb(187, 203, 218);
+    display: inline-block;
+}
 .container, .commands{
     position: relative;
     color: white;
@@ -35,10 +73,7 @@ html body{
 -khtml-user-select: none;
 -webkit-user-select: none;
 
-/*
-     Introduced in IE 10.
-     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-   */
+
 -ms-user-select: none;
 user-select: none;
 }
@@ -50,7 +85,8 @@ user-select: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-  @media screen and (max-width: 1390px) {
+  @media screen and (max-width: 1390px),
+   screen and (max-height: 815px) {
       .inner {
           display: none;
       }
@@ -133,6 +169,7 @@ body::-webkit-scrollbar{
 .discord{
     height: 50px;
     position: relative;
+    display: inline;
 }
 .discord:hover{
     cursor: pointer;

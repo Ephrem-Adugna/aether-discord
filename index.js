@@ -40,3 +40,10 @@ document.getElementsByClassName('more2')[0].addEventListener('click', function (
     window.location.href = "./commands.html";
 
 })
+document.getElementById('discord').addEventListener("mouseover", function () {
+    document.getElementById('message').innerHTML = "<div class=\"arrow-left\"></div><div class=\"inner-text\">Add Aether to Discord!</div>";
+})
+document.getElementById('discord').addEventListener("mouseout", function () {
+    document.getElementById('message').innerHTML = "";
+
+})
