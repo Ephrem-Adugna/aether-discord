@@ -80,16 +80,16 @@ user-select: none;
 .commands{
   margin: 0;
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-80%, -50%);
   transform: translate(-50%, -50%);
 }
 table{
     background-color: rgba(0, 0, 0, 0.274);
 }
   @media screen and (max-width: 1390px),
-   screen and (max-height: 815px) {
+   screen and (max-height: 615px) {
       .inner {
           display: none;
       }
@@ -104,6 +104,17 @@ table{
                 -ms-transform: translate(-60%, -50%);
                 transform: translate(-60%, 150%);
        }
+        .commands {
+
+            visibility: visible !important;
+            position: fixed;
+            top: 50%;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            -ms-transform: translate(-60%, -50%);
+            transform: translate(-60%, 150%);
+        }
       body{
           overflow-x: hidden;
           overflow-y: hidden;
