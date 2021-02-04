@@ -58,10 +58,12 @@
 .entity-queue-message__indicator{
     display: none;
 }
-.title, .secondtitle {
+.title, .secondtitle, .site-nav {
     text-shadow: 2px 2px 2px black;
     color: white;
 }
 .site-nav{
     background-color: transparent;
+              box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
+
 }
