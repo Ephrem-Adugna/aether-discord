@@ -48,3 +48,6 @@
         display: none;
     }
 }
+.entity-content__description, .entity-queue-message__indicator{
+    background: transparent;
+}
