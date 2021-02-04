@@ -8,7 +8,7 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-        /* @font-face {
+        @font-face {
         font-family: genshinfont;
         src: url(https://ephrem-adugna.github.io/aether-discord/assets/zh-cn.ttf);
         }
@@ -178,7 +178,7 @@ min-height: 100%;
 }
 .commands{
     margin-top: 15%;
-} */
+}
     </style>
     </head>
 
@@ -200,28 +200,30 @@ min-height: 100%;
             <h1 class="title">Aether</h1>
             <h3 class="secondtitle"> <i>The most intuitive Genshin Impact bot for your discord server</i></h3>
         </div>
-        <div class="row">
-            <div class="col-sm-4" id="title1">In Game Currency</div>
+        <table class="row">
+            <thead>
+            <th class="col-sm-4" id="title1">In Game Currency</th>
 
-            <div class="col-sm-4" id="title2">Minigames</div>
-            <div class="col-sm-4" id="title3">Information Lookup</div>
-        </div>
-        <div class="row description" id="rowscontainer">
-            <div class="col-sm-4" id="description1">
+            <th class="col-sm-4" id="title2">Minigames</th>
+            <th class="col-sm-4" id="title3">Information Lookup</th>
+            </thead>
+        <tbody class="row description" id="rowscontainer">
+            <td class="col-sm-4" id="description1">
                 All players have a primogem balance when they sign up that lets them make wishes, play games, and much
                 more! There are many games and challenges that will let you earn primogems and your primogems are saved
                 across different discord servers!
-            </div>
+            </td>
            
-            <div class="col-sm-4" id="description2">Currently, Aether only has tic-tac-toe and playing rock paper
-                scissors with paimon, but we plan to add many more games soon!</div>
+            <td class="col-sm-4" id="description2">Currently, Aether only has tic-tac-toe and playing rock paper
+                scissors with paimon, but we plan to add many more games soon!</td>
                 
-                <div class="col-sm-4" id="description3">
+                <td class="col-sm-4" id="description3">
                     Aether has a vast amount of information about characters, artifacts, weapons, constellations and
                     more! A player can look up characters or artifacts with a simple command. The characters are always
                     being updated and Aether always responds extremely quickly.
-                </div>
-        </div>
+                </td>
+        </tbody>
+        </table>
     </div>
     <div class="commands">
         <div class="container">
