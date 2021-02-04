@@ -48,6 +48,17 @@
         display: none;
     }
 }
-.entity-content__description, .entity-queue-message__indicator{
+.entity-content__description,
+.entity-queue-message__indicator,
+.entity-table,
+.entity-sidebar__controls,
+.table {
     background: transparent;
+}
+.entity-queue-message__indicator{
+    display: none;
+}
+.title, .secondtitle {
+    text-shadow: 2px 2px 2px black;
+    color: white;
 }
