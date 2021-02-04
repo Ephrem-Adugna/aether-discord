@@ -67,3 +67,6 @@
               box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
 
 }
+.col-sm-4, th, tr{
+    color: white;
+}
